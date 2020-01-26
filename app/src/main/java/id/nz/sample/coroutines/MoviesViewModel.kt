@@ -42,18 +42,15 @@ class MoviesViewModel constructor(val repository: Repository) : ViewModel(), Cor
         get() = Dispatchers.Main + supervisorJob
 
     init {
-        _page.value = 1
-        _lastPage.value = 1
-        _loading.value = true
-        loadMovies()
+        refresh()
     }
 
     private fun loadMovies() {
         launch(Dispatchers.IO) {
             val state = repository.popular(_page.value!!)
+
             withContext(Dispatchers.Main) {
                 _loading.value = false
-
                 when (state) {
                     is State.Success -> {
                         _page.value = state.data.currentPage
