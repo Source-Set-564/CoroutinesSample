@@ -1,14 +1,12 @@
-package id.nz.sample.coroutines
+package id.ss564.sample.coroutines
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import id.nz.app.mvppattern.data.model.Movie
-import id.nz.sample.coroutines.data.Repository
-import id.nz.sample.coroutines.data.State
+import id.ss564.app.mvppattern.data.model.Movie
+import id.ss564.sample.coroutines.data.Repository
+import id.ss564.sample.coroutines.data.State
 import kotlinx.coroutines.*
-import java.lang.Exception
 import kotlin.coroutines.CoroutineContext
 
 /**

@@ -1,4 +1,4 @@
-package id.nz.sample.coroutines.data
+package id.ss564.sample.coroutines.data
 
 /**
  * Created by Anwar on 1/26/2020.

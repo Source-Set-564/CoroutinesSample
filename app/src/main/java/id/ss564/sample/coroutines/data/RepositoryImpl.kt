@@ -1,4 +1,4 @@
-package id.nz.sample.coroutines.data
+package id.ss564.sample.coroutines.data
 
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

@@ -10,7 +10,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "id.nz.sample.coroutines"
+        applicationId "id.ss564.sample.coroutines"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 1

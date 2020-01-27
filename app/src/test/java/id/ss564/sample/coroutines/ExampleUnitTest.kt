@@ -1,4 +1,4 @@
-package id.nz.sample.coroutines
+package id.ss564.sample.coroutines
 
 import org.junit.Test
 

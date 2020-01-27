@@ -1,4 +1,4 @@
-package id.nz.app.mvppattern.data.model
+package id.ss564.app.mvppattern.data.model
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 

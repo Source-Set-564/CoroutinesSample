@@ -1,7 +1,7 @@
-package id.nz.sample.coroutines.data
+package id.ss564.sample.coroutines.data
 
 import com.google.gson.annotations.SerializedName
-import id.nz.app.mvppattern.data.model.Movie
+import id.ss564.app.mvppattern.data.model.Movie
 
 /**
  * Created by Anwar on 1/26/2020.

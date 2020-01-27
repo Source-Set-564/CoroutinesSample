@@ -1,17 +1,15 @@
-package id.nz.sample.coroutines
+package id.ss564.sample.coroutines
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.google.android.material.snackbar.Snackbar
-import id.nz.sample.coroutines.data.Repository
-import id.nz.sample.coroutines.data.RepositoryImpl
+import id.ss564.sample.coroutines.data.Repository
+import id.ss564.sample.coroutines.data.RepositoryImpl
 import kotlinx.android.synthetic.main.activity_main.*
 import sourceset564.samples.mvvm.feature.imdbmovie.ui.MovieMarginDecorator
 

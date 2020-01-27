@@ -1,4 +1,4 @@
-package id.nz.sample.coroutines
+package id.ss564.sample.coroutines
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

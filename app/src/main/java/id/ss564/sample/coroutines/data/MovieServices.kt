@@ -1,4 +1,4 @@
-package id.nz.sample.coroutines.data
+package id.ss564.sample.coroutines.data
 
 import retrofit2.Response
 import retrofit2.http.GET
