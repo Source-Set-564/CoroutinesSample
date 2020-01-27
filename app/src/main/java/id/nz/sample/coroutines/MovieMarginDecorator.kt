@@ -47,54 +47,6 @@ class MovieMarginDecorator(
 
     }
 
-    private fun linearHorizontal(outRect: Rect, position: Int, isEnd: Boolean) {
-        if (position == 0) {
-            outRect.left = startEnd
-        } else {
-            outRect.left = margin / 2
-        }
-
-        if (isEnd) {
-            outRect.right = startEnd
-        } else {
-            outRect.right = margin / 2
-        }
-    }
-
-    private fun linearVertical(outRect: Rect, position: Int) {
-        if (position == 0) {
-            outRect.top = margin
-        }
-
-        outRect.left = startEnd
-        outRect.right = startEnd
-        outRect.bottom = margin
-    }
-
-    private fun setGridMargin(
-        outRect: Rect,
-        position: Int,
-        spanIndex: Int,
-        spanCount: Int
-    ) {
-        if (position < spanCount) {
-            outRect.top = margin
-        }
-
-        val lastSpan = spanCount - 1
-        if (spanIndex == 0) {
-            outRect.left = startEnd
-            outRect.right = margin / 2
-        } else if (spanIndex != lastSpan) {
-            outRect.left = margin / 2
-            outRect.right = margin / 2
-        } else {
-            outRect.left = margin / 2
-            outRect.right = startEnd
-        }
-        outRect.bottom = margin
-    }
-
     companion object {
         const val INVALID = -1
     }
